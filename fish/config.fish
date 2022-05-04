@@ -1,10 +1,13 @@
-#view
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# view
 set -g theme_display_date yes
 set -g theme_date_format "+%F %H:%M"
 set -g theme_display_git_default_branch yes
 set -g theme_color_scheme dark
 
-#path
+# path
 set -x PATH $HOME/.nodebrew/current/bin $PATH
 
 set -x PYENV_ROOT $HOME/.pyenv
