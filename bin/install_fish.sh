@@ -8,6 +8,7 @@ sudo sh -c 'echo $(which fish) >> /etc/shells'
 chsh -s $(which fish)
 
 # fonts
+brew install fisher
 fisher install oh-my-fish/theme-bobthefish
 git clone https://github.com/powerline/fonts.git
 cd fonts
