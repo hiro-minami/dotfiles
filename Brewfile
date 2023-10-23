@@ -14,6 +14,7 @@ brew "nodebrew"
 brew "protobuf", link: false
 brew "bufbuild/buf/buf"
 brew "ktr0731/evans/evans"
+brew "lazydocker"
 cask "1password"
 cask "visual-studio-code"
 cask "wezterm"
