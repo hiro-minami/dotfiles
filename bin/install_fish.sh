@@ -34,3 +34,6 @@ fisher install jethrokuan/fzf
 brew install ghq
 git config --global ghq.root ~/git
 fisher install decors/fish-ghq
+
+# fish_config
+mv ../fish/config.fish ../fish/fish/config.fish
